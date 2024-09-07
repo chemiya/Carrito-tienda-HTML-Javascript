@@ -1,0 +1,290 @@
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#titulo-nav{
+  font-size:20px;
+  font-weight: bold;
+  color:rgb(0, 25, 248);
+}
+
+#navbarDropdown{
+  color:rgb(0, 25, 248);
+}
+
+#carritoDescripcion{
+  background-color: rgba(124, 141, 223, 0.712);
+  width:300px;
+  padding:15px;
+  color:white;
+}
+
+#tituloCarrito{
+  font-weight: bold;
+  text-align:center;
+  text-decoration:underline;
+}
+
+.resumen{
+  text-align:center;
+}
+
+#vaciarCarrito{
+  border-radius:10px;
+  background-color:rgb(0, 25, 248);
+  color:white;
+  border:none;
+
+}
+
+
+#buscar{
+    border-radius:50px;
+    width:240px;
+    height:40px;
+    font-size:20px;
+    padding:10px;
+}
+
+#boton{
+    width:50px;
+    height:40px;
+    border-radius:50%;
+    background-color:rgb(0, 25, 248);
+    color:white;
+}
+
+#carrito{
+  color:rgb(0, 25, 248);
+    width:50px;
+    height:50px;
+    background-color: white;
+    border:0px;
+    font-size:40px;
+    padding:10px;
+    margin-right:30px;
+
+}
+
+#carrito:hover{
+    color: rgb(216, 17, 183);
+}
+
+#derecha{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+}
+
+/*hasta aqui el nav*/
+
+.tooltipCarrito {
+  position: relative;
+  display: inline-block;
+  
+}
+
+
+.tooltipCarrito .tooltiptext {
+  visibility: hidden;
+  width: 500px;
+ 
+  background-color: rgba(25, 0, 253, 0.808);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  
+  position: absolute;
+  z-index: 1;
+  bottom: -200%;
+  /*left: 50%;*/
+  margin-left: -450px;
+
+ 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+.tooltipCarrito .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+.tooltipCarrito:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*toltip carrito*/
+
+
+
+
+
+.botonEliminar{
+  background-color: red;
+  color:white;
+  border:none;
+  border-radius:15px;
+}
+
+.cursoCarrito{
+  display:flex;
+  justify-content: space-around;
+  margin:10px;
+  border:1px solid white;
+  padding:4px;
+  border-radius:5px;
+}
+
+.botonAnadir{
+  background-color: rgba(25, 0, 253, 0.808);
+  color:white;
+  margin:15px;
+  font-size:20px;
+  border:none;
+  border-radius:15px;
+}
+
+.botonAnadir:hover{
+  background-color: rgba(25, 0, 253, 0.979);
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*carrito actualizar*/
+
+
+#conImagen{
+    display:flex;
+    align-items:center;
+    height:100vh;
+    background-image: linear-gradient(120deg, #84faaf3d 0%, #8fd2f441 100%),url("fotos/fondo.jpg");
+   background-size:cover;
+    background-position:center;
+}
+
+#texto{
+    background-color:rgb(191, 208, 224);
+    margin-left:50px;
+    padding:20px;
+    border-radius:30px;
+
+
+}
+
+/*hasta aqui la zona de la imagen*/
+
+
+
+
+#cursos{
+  margin-top:40px;
+}
+
+.carta{
+  border:1px solid;
+  
+}
+
+.tituloCurso{
+  font-size:25px;
+  color:black;
+  font-weight:bold;
+  
+}
+
+.precio{
+  font-size:25px;
+  margin-left:15px;
+  font-weight:bold
+}
+
+
+
+/*hasta aqui la carta*/
+
+#resenas{
+  color:rgb(235, 220, 12)
+}
+
+.contenedorEstrellas{
+  display:flex;
+  margin-left:15px;
+  
+}
+
+/*hasta aqui la zona de estrellas*/
+
+
+
+
+
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+ 
+  .tooltip1 .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: rgba(25, 0, 253, 0.808);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+   
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+ 
+  .tooltip1 .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  
+  .tooltip1:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*hasta aqui el tooltpi*/
+
